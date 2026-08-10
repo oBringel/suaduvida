@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ==========================================================
+       SEO — troque o domínio em og:url e canonical ao publicar
+       ========================================================== -->
+  <title>suaduvida — Tecnologia, produtos e dicas para escolher melhor</title>
+  <meta name="description" content="Descubra produtos de tecnologia, eletrônicos, informática e escritório com dicas, detalhes e informações para ajudar você a escolher melhor.">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="canonical" href="https://exemplo.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="suaduvida">
+  <meta property="og:title" content="suaduvida — Antes de comprar, tire sua dúvida.">
+  <meta property="og:description" content="Curadoria independente de tecnologia, informática e escritório: o que o anúncio não conta antes de você decidir.">
+  <meta property="og:url" content="https://exemplo.com/">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Tipografia: Manrope (títulos), Inter (texto), IBM Plex Mono (dados/etiquetas) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232563EB'/%3E%3Ctext x='32' y='45' font-family='Manrope,Arial' font-size='42' font-weight='800' fill='white' text-anchor='middle'%3E?%3C/text%3E%3C/svg%3E">
+</head>
+
+<body id="topo">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="suaduvida — página inicial">
+        <span class="brand-mark" aria-hidden="true">?</span>
+        <span class="brand-word"><span class="brand-word-a">sua</span><span class="brand-word-b">duvida</span></span>
+      </a>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#topo">Início</a></li>
+          <li><a href="#vitrine-tecnologia">Tecnologia</a></li>
+          <li><a href="#vitrine-informatica">Informática</a></li>
+          <li><a href="#vitrine-escritorio">Escritório</a></li>
+          <li><a href="#vitrine-gadgets">Gadgets</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-ghost header-cta" href="#categorias">Explorar</a>
+
+      <!-- Botão do menu mobile (controlado por js/nav.js) -->
+      <button class="nav-toggle" type="button" data-nav-toggle
+              aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" data-nav-backdrop hidden></div>
+
+  <main id="conteudo" tabindex="-1">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Curadoria independente de tecnologia</p>
+          <h1 id="hero-titulo">Antes de comprar,<br><em>tire sua dúvida.</em></h1>
+          <p class="hero-sub">
+            Descubra produtos de tecnologia, eletrônicos e escritório com dicas, detalhes
+            e informações que realmente ajudam na hora de escolher.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#categorias">Explorar produtos</a>
+            <a class="btn btn-outline" href="#destaque">Ver destaques</a>
+          </div>
+          <ul class="hero-chips">
+            <li>Prós e contras declarados</li>
+            <li>Para quem é (e para quem não é)</li>
+            <li>Sem checkout, sem carrinho</li>
+          </ul>
+        </div>
+
+        <!-- Composição visual do hero. Imagens fixas de marca: não vêm do JSON. -->
+        <div class="hero-visual" aria-hidden="true">
+          <span class="hero-glyph">?</span>
+          <figure class="hero-card hero-card-main">
+            <img src="assets/images/products/iphone-16-branco-conjunto.webp"
+                 alt="" width="1200" height="1200" fetchpriority="high" decoding="async">
+            <figcaption>
+              <span class="tag">Tecnologia</span>
+              <strong>iPhone 16</strong>
+              <small>Tela de 60 Hz é um problema para você?</small>
+            </figcaption>
+          </figure>
+
+          <figure class="hero-card hero-card-side">
+            <img src="assets/images/products/projetor-portatil-preto.webp"
+                 alt="" width="1200" height="1200" loading="lazy" decoding="async">
+            <figcaption>
+              <span class="tag">Gadgets</span>
+              <strong>Projetor portátil</strong>
+              <small>“12.000 lumens” não é ANSI lumens.</small>
+            </figcaption>
+          </figure>
+
+          <div class="hero-note">
+            <span class="hero-note-label">o que o anúncio não conta</span>
+            <p>Cada produto vem com pontos fracos escritos por extenso.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== POR QUE SUADUVIDA? ====================== -->
+    <section class="section pillars" id="por-que" aria-labelledby="pilares-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Por que suaduvida</p>
+          <h2 id="pilares-titulo">Comprar tecnologia não deveria ser uma dúvida.</h2>
+          <p class="section-lead">
+            A página do vendedor mostra o que convém a ele. Aqui a informação vem organizada
+            para você decidir — inclusive quando a resposta é “não compre”.
+          </p>
+        </header>
+
+        <ul class="pillar-grid">
+          <li class="pillar">
+            <span class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7V16h8v-1.3A7 7 0 0 0 12 2Z"/></svg>
+            </span>
+            <h3>Dicas práticas</h3>
+            <p>Informações que ajudam você a entender se o produto realmente faz sentido para sua necessidade.</p>
+          </li>
+          <li class="pillar">
+            <span class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 8H3l3-5 3 5H7l-1 6a3 3 0 0 0 0 0"/><path d="M3 8l3 6h0a3 3 0 0 0 6 0h0l3-6"/><path d="M15 8h6l-3 6a3 3 0 0 0 6 0"/></svg>
+            </span>
+            <h3>Comparação</h3>
+            <p>Veja características e diferenças que passam despercebidas na página de venda.</p>
+          </li>
+          <li class="pillar">
+            <span class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6l-8-3Z"/></svg>
+            </span>
+            <h3>Curadoria</h3>
+            <p>Produtos selecionados considerando utilidade, recursos e experiência de uso.</p>
+          </li>
+          <li class="pillar">
+            <span class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m10 9 5 3-5 3V9Z"/></svg>
+            </span>
+            <h3>Conteúdo</h3>
+            <p>Vídeos, imagens e detalhes reunidos em um lugar só, para decidir melhor.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= PRODUTO EM DESTAQUE (featured: true) ================= -->
+    <!-- Renderizado por js/products.js a partir do primeiro produto com "featured": true -->
+    <section class="section featured-section" id="destaque" aria-labelledby="destaque-titulo" data-featured hidden>
+      <h2 id="destaque-titulo" class="sr-only">Produto em destaque</h2>
+    </section>
+
+    <!-- ============================ CATEGORIAS ============================ -->
+    <section class="section categories" id="categorias" aria-labelledby="categorias-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Categorias</p>
+          <h2 id="categorias-titulo">Por onde você quer começar?</h2>
+          <p class="section-lead">Seis frentes, do celular no bolso à cadeira em que você passa o dia.</p>
+        </header>
+        <!-- Preenchido por renderCategories() -->
+        <ul class="category-grid" data-categories></ul>
+      </div>
+    </section>
+
+    <!-- ===================== VITRINES (um carrossel por categoria) ===================== -->
+    <!-- Preenchido por renderProductCarousel(); cada categoria do JSON vira uma <section> -->
+    <div data-shelves></div>
+
+    <!-- =========================== SEÇÃO EDITORIAL =========================== -->
+    <section class="section editorial" id="editorial" aria-labelledby="editorial-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Conteúdo</p>
+          <h2 id="editorial-titulo">Dúvidas que aparecem antes da compra</h2>
+          <p class="section-lead">Estrutura pronta para virar blog. Os textos abaixo vêm da chave <code>editorial</code> do JSON.</p>
+        </header>
+        <ul class="editorial-grid" data-editorial></ul>
+      </div>
+    </section>
+
+    <!-- ============================ CONFIANÇA ============================ -->
+    <section class="section trust" id="sobre" aria-labelledby="trust-titulo">
+      <div class="container trust-inner">
+        <span class="trust-glyph" aria-hidden="true">?</span>
+        <div class="trust-copy">
+          <p class="eyebrow eyebrow-light">Sobre o suaduvida</p>
+          <h2 id="trust-titulo">Você encontra o produto. A gente ajuda a entender.</h2>
+          <p>
+            O suaduvida não vende nada e não tem carrinho. Reunimos o que costuma ficar de fora
+            do anúncio — limitações, para quem serve, para quem não serve — e, se você decidir
+            comprar, o link leva direto para a loja.
+          </p>
+          <ul class="trust-list">
+            <li>Conteúdo independente</li>
+            <li>Produtos selecionados por utilidade</li>
+            <li>Informação antes da compra</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#topo" aria-label="suaduvida — página inicial">
+          <span class="brand-mark" aria-hidden="true">?</span>
+          <span class="brand-word"><span class="brand-word-a">sua</span><span class="brand-word-b">duvida</span></span>
+        </a>
+        <p>Curadoria e conteúdo sobre tecnologia, informática e escritório. Antes de comprar, tire sua dúvida.</p>
+      </div>
+
+      <nav class="footer-col" aria-labelledby="footer-cat">
+        <h2 id="footer-cat">Categorias</h2>
+        <!-- Preenchido por app.js a partir do JSON -->
+        <ul data-footer-categories></ul>
+      </nav>
+
+      <nav class="footer-col" aria-labelledby="footer-inst">
+        <h2 id="footer-inst">Institucional</h2>
+        <ul>
+          <li><a href="#sobre">Sobre o projeto</a></li>
+          <li><a href="#editorial">Conteúdo e dicas</a></li>
+          <li><a href="#aviso-afiliados">Política de afiliados</a></li>
+          <li><a href="#topo">Privacidade</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2>Contato</h2>
+        <ul>
+          <li><a href="mailto:contato@exemplo.com">contato@exemplo.com</a></li>
+        </ul>
+        <!-- Estrutura pronta para redes sociais: troque o href quando tiver os perfis -->
+        <ul class="footer-social" aria-label="Redes sociais">
+          <li><a href="#" aria-label="Instagram (em breve)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a></li>
+          <li><a href="#" aria-label="YouTube (em breve)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3V9Z"/></svg></a></li>
+          <li><a href="#" aria-label="TikTok (em breve)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M15 3v9.5a4 4 0 1 1-3-3.9"/><path d="M15 6.5A5 5 0 0 0 20 9"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="affiliate-notice" id="aviso-afiliados">
+        Alguns links desta página são links de afiliados. Isso significa que podemos receber uma
+        comissão caso você realize uma compra através deles, sem custo adicional para você.
+      </p>
+      <p class="copyright">© 2026 suaduvida. Conteúdo independente sobre tecnologia e produtos.</p>
+    </div>
+  </footer>
+
+  <!-- ======================== MODAL DE PRODUTO ========================
+       Estrutura vazia: o conteúdo é injetado por js/modal.js ao clicar
+       em "Ver detalhes". Fecha no X, no ESC e no clique fora.
+       ================================================================= -->
+  <div class="modal" data-modal hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" tabindex="-1" data-modal-dialog>
+      <button class="modal-close" type="button" data-modal-close aria-label="Fechar detalhes do produto">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div class="modal-body" data-modal-body></div>
+    </div>
+  </div>
+
+  <!-- Aviso curto de status (link não configurado, erro de carregamento etc.) -->
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+  <!-- Estado de erro/instrução exibido apenas se o JSON não puder ser lido -->
+  <div class="boot-error" data-boot-error hidden>
+    <div class="boot-error-card">
+      <h2>O catálogo não carregou</h2>
+      <p data-boot-error-msg></p>
+      <pre><code>cd suaduvida
+python3 -m http.server 8000</code></pre>
+      <p class="boot-error-hint">Depois abra <strong>http://localhost:8000</strong>. Em produção (GitHub Pages, Netlify, hospedagem comum) isso não acontece.</p>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+
+  <!-- Rede de segurança: se a página for aberta direto do disco (file://),
+       módulos ES e fetch são bloqueados pelo navegador. Este script clássico
+       roda mesmo assim e explica o que fazer. -->
+  <script>
+    setTimeout(function () {
+      if (document.body.dataset.appReady) return;
+      var box = document.querySelector('[data-boot-error]');
+      var msg = document.querySelector('[data-boot-error-msg]');
+      if (!box || box.hidden === false) return;
+      msg.textContent = location.protocol === 'file:'
+        ? 'A página foi aberta direto do disco (file://). Navegadores bloqueiam a leitura de arquivos JSON e de módulos JavaScript nesse modo. Rode um servidor estático:'
+        : 'Não foi possível ler data/products.json. Verifique se o arquivo existe e se o servidor está entregando a pasta inteira:';
+      box.hidden = false;
+    }, 2500);
+  </script>
+</body>
+</html>
