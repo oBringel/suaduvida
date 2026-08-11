@@ -225,5 +225,35 @@
         
       ]
     } 
+  ],
+  "editorial": [
+    {
+      "id": "como-escolher-monitor",
+      "kicker": "Guia",
+      "title": "Como escolher um monitor para trabalhar?",
+      "excerpt": "Tamanho e resolução andam juntos. Entenda por que 27 polegadas em Full HD costuma decepcionar e qual combinação faz sentido para texto e planilha.",
+      "readingTime": "5 min de leitura"
+    },
+    {
+      "id": "teclado-mecanico-vale-a-pena",
+      "kicker": "Dúvida comum",
+      "title": "Teclado mecânico realmente vale a pena?",
+      "excerpt": "Depende de quanto você digita e de qual switch escolhe. A diferença entre linear, tátil e clicky muda mais a experiência do que a marca.",
+      "readingTime": "4 min de leitura"
+    },
+    {
+      "id": "mouse-home-office",
+      "kicker": "Ergonomia",
+      "title": "Qual mouse escolher para home office?",
+      "excerpt": "Tamanho da mão, tipo de pegada e ruído do clique. Três critérios simples que evitam dor no punho depois de algumas semanas.",
+      "readingTime": "3 min de leitura"
+    },
+    {
+      "id": "acessorios-que-melhoram-setup",
+      "kicker": "Lista",
+      "title": "5 acessórios que melhoram seu setup",
+      "excerpt": "Nem tudo que melhora a mesa é caro. Uma seleção de itens de baixo custo com impacto real no conforto e na organização.",
+      "readingTime": "6 min de leitura"
+    }
   ]
 }
