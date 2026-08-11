@@ -1098,6 +1098,7 @@ code, pre { font-family: var(--font-mono); font-size: .875em; }
     inset: 0 0 0 auto;
     z-index: 58;
     width: min(320px, 84vw);
+    height: 100vh;
     background: var(--surface);
     border-left: 1px solid var(--line);
     box-shadow: var(--shadow-lg);
@@ -1116,6 +1117,7 @@ code, pre { font-family: var(--font-mono); font-size: .875em; }
     font-family: var(--font-display);
     font-weight: 600;
     color: var(--ink-900);
+    
   }
   body.nav-open { overflow: hidden; }
 }
